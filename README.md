@@ -9,8 +9,13 @@ numpy 1.26.4
 matplotlib 3.8.2
 ```
 ## 数据集与词典
-地址https://github.com/omfoggynight/Chinese-Depression-domain-Lexicon/tree/master
+鸣谢https://github.com/omfoggynight/Chinese-Depression-domain-Lexicon/tree/master
+## 数据集准备
+放入Dataset文件夹中
+并将其命名为depressiion.txt、non_depression.txt、psy_dict.csv
 ## 运行
 ```
+cd IKNN
 python run.py
 ```
+## 如果在复现过程中遇到问题，请提issue，谢谢！
